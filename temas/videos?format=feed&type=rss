@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Etiquetas | Dr. Ricardo Yagüe Facal</title>
+		<description><![CDATA[]]></description>
+		<link>https://ricardoyaguefacal.com/temas/videos</link>
+		<lastBuildDate>Sat, 29 Aug 2026 21:10:43 +0200</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="https://ricardoyaguefacal.com/temas/videos?format=feed&amp;type=rss"/>
+		<language>es-es</language>
+		<item>
+			<title>¿Sabes qué hay debajo de una corona?</title>
+			<link>https://ricardoyaguefacal.com/blog/sabes-que-hay-debajo-de-una-corona</link>
+			<guid isPermaLink="true">https://ricardoyaguefacal.com/blog/sabes-que-hay-debajo-de-una-corona</guid>
+			<description><![CDATA[<p>En este vídeo te enseño lo que hay bajo una corona diseñada digitalmente.</p>
+]]></description>
+			<category>Blog</category>
+			<pubDate>Tue, 23 Sep 2025 14:59:26 +0200</pubDate>
+		</item>
+		<item>
+			<title>Articulador virtual</title>
+			<link>https://ricardoyaguefacal.com/blog/articulador-virtual</link>
+			<guid isPermaLink="true">https://ricardoyaguefacal.com/blog/articulador-virtual</guid>
+			<description><![CDATA[<p>En este vídeo te muestro un ajuste oclusal en articulador virtual.</p>
+]]></description>
+			<category>Blog</category>
+			<pubDate>Tue, 23 Sep 2025 14:59:26 +0200</pubDate>
+		</item>
+		<item>
+			<title>Circonio + PPR en Peek</title>
+			<link>https://ricardoyaguefacal.com/blog/circonio-ppr-en-peek</link>
+			<guid isPermaLink="true">https://ricardoyaguefacal.com/blog/circonio-ppr-en-peek</guid>
+			<description><![CDATA[<p>Ataches extracoronarios en circonio y hembras en PPR en PEEK</p>
+]]></description>
+			<category>Blog</category>
+			<pubDate>Tue, 23 Sep 2025 14:59:26 +0200</pubDate>
+		</item>
+		<item>
+			<title>Crown BOPT</title>
+			<link>https://ricardoyaguefacal.com/blog/crown-bopt</link>
+			<guid isPermaLink="true">https://ricardoyaguefacal.com/blog/crown-bopt</guid>
+			<description><![CDATA[<p>En este vídeo te enseño qué hay más alla de sustituir la silicona.</p>
+]]></description>
+			<category>Blog</category>
+			<pubDate>Tue, 23 Sep 2025 14:59:26 +0200</pubDate>
+		</item>
+	</channel>
+</rss>

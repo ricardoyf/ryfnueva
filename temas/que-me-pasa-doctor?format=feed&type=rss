@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Etiquetas | Dr. Ricardo Yagüe Facal</title>
+		<description><![CDATA[]]></description>
+		<link>https://ricardoyaguefacal.com/temas/que-me-pasa-doctor</link>
+		<lastBuildDate>Sat, 29 Aug 2026 21:10:46 +0200</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="https://ricardoyaguefacal.com/temas/que-me-pasa-doctor?format=feed&amp;type=rss"/>
+		<language>es-es</language>
+		<item>
+			<title>Caries dental: síntomas, diagnóstico y tratamientos para mantener tu sonrisa sana</title>
+			<link>https://ricardoyaguefacal.com/blog/caries-dental-sintomas-diagnostico-tratamientos-sonrisa-sana</link>
+			<guid isPermaLink="true">https://ricardoyaguefacal.com/blog/caries-dental-sintomas-diagnostico-tratamientos-sonrisa-sana</guid>
+			<description><![CDATA[<p>Descubre qué es una caries, cómo se diagnostica y por qué tratarla a tiempo puede evitar complicaciones más graves en tu salud dental.</p>
+]]></description>
+			<category>Blog</category>
+			<pubDate>Wed, 20 Aug 2025 11:15:13 +0200</pubDate>
+		</item>
+		<item>
+			<title>Cómo mejorar la sonrisa: tratamientos estéticos dentales paso a paso</title>
+			<link>https://ricardoyaguefacal.com/blog/como-mejorar-sonrisa-tratamientos-esteticos-dentales-paso-a-paso</link>
+			<guid isPermaLink="true">https://ricardoyaguefacal.com/blog/como-mejorar-sonrisa-tratamientos-esteticos-dentales-paso-a-paso</guid>
+			<description><![CDATA[<p>Descubre cómo mejorar tu sonrisa con tratamientos estéticos dentales personalizados que combinan precisión, experiencia y tecnología.</p>
+]]></description>
+			<category>Blog</category>
+			<pubDate>Thu, 14 Aug 2025 08:44:24 +0200</pubDate>
+		</item>
+		<item>
+			<title>Prevención e higiene bucal: técnicas y cuidados para una sonrisa saludable</title>
+			<link>https://ricardoyaguefacal.com/blog/prevencion-higiene-bucal-tecnicas-cuidados-sonrisa-saludable</link>
+			<guid isPermaLink="true">https://ricardoyaguefacal.com/blog/prevencion-higiene-bucal-tecnicas-cuidados-sonrisa-saludable</guid>
+			<description><![CDATA[<p>La higiene bucal diaria y las limpiezas profesionales son clave para prevenir caries, sarro y enfermedades de las encías.</p>
+]]></description>
+			<category>Blog</category>
+			<pubDate>Mon, 18 Aug 2025 15:52:03 +0200</pubDate>
+		</item>
+	</channel>
+</rss>

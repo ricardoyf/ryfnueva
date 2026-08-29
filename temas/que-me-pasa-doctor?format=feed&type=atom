@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-es">
+	<title type="text">Etiquetas | Dr. Ricardo Yagüe Facal</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://ricardoyaguefacal.com"/>
+	<id>https://ricardoyaguefacal.com/temas/que-me-pasa-doctor</id>
+	<updated>2026-08-29T21:10:47+02:00</updated>
+	<author>
+		<name>Dr. Ricardo Yagüe Facal</name>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="https://ricardoyaguefacal.com/temas/que-me-pasa-doctor?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Caries dental: síntomas, diagnóstico y tratamientos para mantener tu sonrisa sana</title>
+		<link rel="alternate" type="text/html" href="https://ricardoyaguefacal.com/blog/caries-dental-sintomas-diagnostico-tratamientos-sonrisa-sana"/>
+		<published>2025-08-20T11:15:13+02:00</published>
+		<updated>2025-08-20T11:15:13+02:00</updated>
+		<id>https://ricardoyaguefacal.com/blog/caries-dental-sintomas-diagnostico-tratamientos-sonrisa-sana</id>
+		<author>
+			<name>Pilar Dávila</name>
+		</author>
+		<summary type="html">&lt;p&gt;Descubre qué es una caries, cómo se diagnostica y por qué tratarla a tiempo puede evitar complicaciones más graves en tu salud dental.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Descubre qué es una caries, cómo se diagnostica y por qué tratarla a tiempo puede evitar complicaciones más graves en tu salud dental.&lt;/p&gt;
+</content>
+		<category term="Blog" />
+	</entry>
+	<entry>
+		<title>Cómo mejorar la sonrisa: tratamientos estéticos dentales paso a paso</title>
+		<link rel="alternate" type="text/html" href="https://ricardoyaguefacal.com/blog/como-mejorar-sonrisa-tratamientos-esteticos-dentales-paso-a-paso"/>
+		<published>2025-08-14T08:44:24+02:00</published>
+		<updated>2025-08-14T08:44:24+02:00</updated>
+		<id>https://ricardoyaguefacal.com/blog/como-mejorar-sonrisa-tratamientos-esteticos-dentales-paso-a-paso</id>
+		<author>
+			<name>Pilar Dávila</name>
+		</author>
+		<summary type="html">&lt;p&gt;Descubre cómo mejorar tu sonrisa con tratamientos estéticos dentales personalizados que combinan precisión, experiencia y tecnología.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Descubre cómo mejorar tu sonrisa con tratamientos estéticos dentales personalizados que combinan precisión, experiencia y tecnología.&lt;/p&gt;
+</content>
+		<category term="Blog" />
+	</entry>
+	<entry>
+		<title>Prevención e higiene bucal: técnicas y cuidados para una sonrisa saludable</title>
+		<link rel="alternate" type="text/html" href="https://ricardoyaguefacal.com/blog/prevencion-higiene-bucal-tecnicas-cuidados-sonrisa-saludable"/>
+		<published>2025-08-18T15:52:03+02:00</published>
+		<updated>2025-08-18T15:52:03+02:00</updated>
+		<id>https://ricardoyaguefacal.com/blog/prevencion-higiene-bucal-tecnicas-cuidados-sonrisa-saludable</id>
+		<author>
+			<name>Pilar Dávila</name>
+		</author>
+		<summary type="html">&lt;p&gt;La higiene bucal diaria y las limpiezas profesionales son clave para prevenir caries, sarro y enfermedades de las encías.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;La higiene bucal diaria y las limpiezas profesionales son clave para prevenir caries, sarro y enfermedades de las encías.&lt;/p&gt;
+</content>
+		<category term="Blog" />
+	</entry>
+</feed>

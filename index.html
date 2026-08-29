@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dentista en Vigo | Dr. Ricardo Yagüe Facal</title>
+  <meta name="description" content="Odontología con historia y futuro en Vigo. Atención personal, más de 25 años de experiencia y precisión digital y microscópica con el Dr. Ricardo Yagüe Facal.">
+  <meta name="theme-color" content="#222222">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Odontología con historia y futuro | Dr. Ricardo Yagüe Facal">
+  <meta property="og:description" content="Tradición familiar, criterio clínico y tecnología para cuidar tu boca con precisión y cercanía.">
+  <meta property="og:url" content="https://ricardoyf.github.io/ryf/">
+  <meta property="og:image" content="https://ricardoyf.github.io/ryf/images/imagen-04.jpg">
+  <link rel="icon" href="images/favicon.jpg">
+  <link rel="canonical" href="https://ricardoyaguefacal.com/">
+  <style>
+    :root {
+      --ink: #222222;
+      --ink-soft: #51545a;
+      --teal: #66c6b8;
+      --teal-dark: #287f74;
+      --teal-pale: #e9f7f4;
+      --warm: #f4f2eb;
+      --paper: #ffffff;
+      --line: #dfe4e3;
+      --shadow: 0 22px 70px rgba(24, 45, 42, .12);
+      --radius: 24px;
+      --max: 1180px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 17px;
+      line-height: 1.65;
+      text-rendering: optimizeLegibility;
+    }
+    img { display: block; max-width: 100%; }
+    a { color: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    :focus-visible { outline: 3px solid var(--teal); outline-offset: 4px; }
+
+    .skip-link {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 1000;
+      padding: 10px 16px;
+      transform: translateY(-150%);
+      border-radius: 8px;
+      background: var(--paper);
+      font-weight: 800;
+    }
+    .skip-link:focus { transform: translateY(0); }
+    .container { width: min(calc(100% - 40px), var(--max)); margin-inline: auto; }
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--teal-dark);
+      font-size: .78rem;
+      font-weight: 850;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    h1, h2, h3 { margin-top: 0; line-height: 1.1; letter-spacing: -.035em; }
+    h1 { max-width: 760px; margin-bottom: 22px; font-size: clamp(2.7rem, 6vw, 5.25rem); }
+    h2 { margin-bottom: 20px; font-size: clamp(2rem, 4vw, 3.55rem); }
+    h3 { margin-bottom: 10px; font-size: 1.25rem; }
+    p { margin-top: 0; }
+    .lead { max-width: 690px; color: var(--ink-soft); font-size: clamp(1.08rem, 2vw, 1.3rem); }
+    .section { padding: clamp(76px, 10vw, 132px) 0; }
+
+    .topbar { background: var(--ink); color: #fff; font-size: .88rem; }
+    .topbar-inner { display: flex; justify-content: space-between; gap: 24px; padding: 9px 0; }
+    .topbar p { margin: 0; }
+    .topbar a { color: #fff; font-weight: 750; text-decoration: none; }
+    .topbar-links { display: flex; gap: 20px; }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid rgba(34, 34, 34, .08);
+      background: rgba(34, 34, 34, .96);
+      backdrop-filter: blur(16px);
+    }
+    .nav { min-height: 86px; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
+    .logo { width: min(330px, 58vw); }
+    .nav-links { display: flex; align-items: center; gap: 26px; }
+    .nav-links a { color: #fff; font-size: .94rem; font-weight: 720; text-decoration: none; }
+    .nav-links a:hover { color: var(--teal); }
+    .menu-button {
+      display: none;
+      width: 46px;
+      height: 46px;
+      border: 1px solid rgba(255,255,255,.35);
+      border-radius: 50%;
+      background: transparent;
+      color: #fff;
+      font-size: 1.35rem;
+      cursor: pointer;
+    }
+
+    .button-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+    .button {
+      min-height: 52px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 13px 22px;
+      border: 1px solid var(--ink);
+      border-radius: 999px;
+      background: var(--ink);
+      color: #fff;
+      font-weight: 820;
+      text-decoration: none;
+      transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+    }
+    .button:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(34, 34, 34, .18); }
+    .button-whatsapp { border-color: var(--teal-dark); background: var(--teal-dark); }
+    .button-light { background: transparent; color: var(--ink); }
+    .button-light:hover { background: var(--warm); box-shadow: none; }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(145deg, #fff 0 56%, var(--teal-pale) 56% 100%);
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      width: 440px;
+      height: 440px;
+      top: -200px;
+      right: -80px;
+      border: 90px solid rgba(102, 198, 184, .18);
+      border-radius: 50%;
+    }
+    .hero-grid {
+      min-height: 740px;
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      align-items: center;
+      gap: clamp(40px, 7vw, 90px);
+      padding: 74px 0 84px;
+    }
+    .hero-copy { position: relative; z-index: 2; }
+    .hero-title-em { color: var(--teal-dark); font-style: italic; font-weight: 520; }
+    .hero-visual { position: relative; align-self: stretch; min-height: 620px; }
+    .hero-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 18% center;
+      border-radius: 170px 0 170px 0;
+      box-shadow: var(--shadow);
+    }
+    .hero-card {
+      position: absolute;
+      left: -52px;
+      bottom: 38px;
+      width: min(330px, 82%);
+      padding: 22px;
+      border: 1px solid rgba(255, 255, 255, .8);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, .93);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(12px);
+    }
+    .hero-card strong { display: block; margin-bottom: 5px; font-size: 1.06rem; }
+    .hero-card p { margin: 0; color: var(--ink-soft); font-size: .93rem; }
+
+    .proof { border-block: 1px solid var(--line); background: #fff; }
+    .proof-grid { display: grid; grid-template-columns: repeat(4, 1fr); }
+    .proof-item { padding: 30px clamp(18px, 3vw, 40px); border-right: 1px solid var(--line); }
+    .proof-item:first-child { padding-left: 0; }
+    .proof-item:last-child { border-right: 0; }
+    .proof-item strong { display: block; margin-bottom: 4px; font-size: 1.35rem; }
+    .proof-item span { color: var(--ink-soft); font-size: .92rem; }
+
+    .intro-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(48px, 9vw, 120px); align-items: start; }
+    .intro-statement {
+      padding-left: 28px;
+      border-left: 4px solid var(--teal);
+      font-size: clamp(1.35rem, 2.6vw, 2.05rem);
+      font-weight: 730;
+      line-height: 1.35;
+      letter-spacing: -.025em;
+    }
+    .principles { display: grid; gap: 14px; margin-top: 34px; }
+    .principle { display: grid; grid-template-columns: 42px 1fr; gap: 16px; padding-top: 16px; border-top: 1px solid var(--line); }
+    .principle span { color: var(--teal-dark); font-weight: 900; }
+    .principle p { margin: 0; color: var(--ink-soft); }
+
+    .services { background: var(--warm); }
+    .section-head { max-width: 780px; margin-bottom: 44px; }
+    .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .service-card {
+      min-height: 290px;
+      display: flex;
+      flex-direction: column;
+      padding: 28px;
+      border: 1px solid rgba(34, 34, 34, .08);
+      border-radius: var(--radius);
+      background: #fff;
+      text-decoration: none;
+      transition: transform .22s ease, box-shadow .22s ease;
+    }
+    .service-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+    .service-icon { width: 58px; height: 58px; margin-bottom: 28px; object-fit: contain; }
+    .service-card p { color: var(--ink-soft); }
+    .service-link { margin-top: auto; color: var(--teal-dark); font-weight: 850; }
+
+    .history { position: relative; overflow: hidden; background: var(--ink); color: #fff; }
+    .history h2, .history h3 { color: #fff; }
+    .history .eyebrow { color: var(--teal); }
+    .history-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(50px, 9vw, 118px); align-items: center; }
+    .history-copy .lead { color: #c9cccb; }
+    .history-quote {
+      margin: 34px 0;
+      padding: 24px 0 24px 25px;
+      border-left: 3px solid var(--teal);
+      color: #fff;
+      font-size: 1.28rem;
+      font-weight: 680;
+    }
+    .timeline {
+      position: relative;
+      display: grid;
+      gap: 18px;
+      padding: 18px 0;
+    }
+    .timeline::before { content: ""; position: absolute; top: 0; bottom: 0; left: 31px; width: 1px; background: rgba(255,255,255,.2); }
+    .timeline-item { position: relative; display: grid; grid-template-columns: 64px 1fr; gap: 18px; align-items: center; }
+    .timeline-year {
+      position: relative;
+      z-index: 1;
+      width: 64px;
+      height: 64px;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(255,255,255,.25);
+      border-radius: 50%;
+      background: var(--ink);
+      color: var(--teal);
+      font-size: .78rem;
+      font-weight: 900;
+    }
+    .timeline-item p { margin: 4px 0 0; color: #bfc3c2; font-size: .94rem; }
+
+    .reviews { background: var(--teal-pale); }
+    .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .review {
+      position: relative;
+      min-height: 270px;
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      border-radius: var(--radius);
+      background: #fff;
+      box-shadow: 0 14px 45px rgba(40, 127, 116, .08);
+    }
+    .stars { color: var(--teal-dark); letter-spacing: .15em; }
+    .review blockquote { margin: 22px 0; font-size: 1.15rem; font-weight: 680; line-height: 1.5; }
+    .review footer { margin-top: auto; color: var(--ink-soft); font-size: .88rem; }
+    .reviews-note { margin: 24px 0 0; color: var(--ink-soft); font-size: .82rem; }
+
+    .precision-grid, .team-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(44px, 8vw, 104px); align-items: center; }
+    .precision-image, .team-image { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow); }
+    .precision-list { display: grid; gap: 18px; margin: 32px 0; }
+    .precision-item { display: grid; grid-template-columns: 28px 1fr; gap: 12px; }
+    .precision-item b { color: var(--teal-dark); }
+    .precision-item p { margin: 0; color: var(--ink-soft); }
+
+    .method { background: var(--warm); }
+    .method-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; counter-reset: method; }
+    .method-step { padding: 24px 18px; border-top: 3px solid var(--teal); background: #fff; counter-increment: method; }
+    .method-step::before { content: "0" counter(method); display: block; margin-bottom: 28px; color: var(--teal-dark); font-size: .8rem; font-weight: 900; }
+    .method-step p { margin-bottom: 0; color: var(--ink-soft); font-size: .92rem; }
+
+    .team-copy ul { padding: 0; list-style: none; }
+    .team-copy li { padding: 14px 0; border-bottom: 1px solid var(--line); }
+    .team-copy li strong { display: block; }
+    .team-copy li span { color: var(--ink-soft); }
+
+    .cta { padding: clamp(75px, 10vw, 120px) 0; background: var(--teal); }
+    .cta-inner { display: grid; grid-template-columns: 1.25fr .75fr; gap: 50px; align-items: end; }
+    .cta h2 { max-width: 720px; margin-bottom: 16px; }
+    .cta p { max-width: 650px; margin-bottom: 0; color: #1f4944; }
+    .cta-actions { display: grid; gap: 12px; }
+    .cta .button { width: 100%; }
+    .cta .button-light { border-color: rgba(34,34,34,.45); }
+
+    .contact { background: var(--ink); color: #fff; }
+    .contact h2, .contact h3 { color: #fff; }
+    .contact-grid { display: grid; grid-template-columns: 1.2fr repeat(3, .6fr); gap: 38px; }
+    .contact-logo { max-width: 330px; padding: 14px; border-radius: 12px; background: #fff; }
+    .contact p, .contact address { color: #bec2c1; font-style: normal; }
+    .contact a { color: #fff; text-decoration-color: var(--teal); text-underline-offset: 4px; }
+    .footer-bottom { display: flex; justify-content: space-between; gap: 30px; padding: 26px 0; border-top: 1px solid rgba(255,255,255,.14); color: #9fa4a3; font-size: .82rem; }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 18px; }
+
+    .mobile-whatsapp { display: none; }
+
+    @media (max-width: 980px) {
+      .nav-links {
+        position: absolute;
+        top: 86px;
+        left: 0;
+        right: 0;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding: 12px 20px 22px;
+        border-bottom: 1px solid var(--line);
+        background: var(--ink);
+        box-shadow: 0 18px 35px rgba(0,0,0,.08);
+      }
+      .nav-links.open { display: flex; }
+      .nav-links a { padding: 13px 4px; border-bottom: 1px solid var(--line); }
+      .nav-links .button { margin-top: 12px; border-bottom: 0; }
+      .menu-button { display: block; }
+      .hero-grid { min-height: auto; grid-template-columns: 1fr; }
+      .hero-visual { min-height: 560px; }
+      .hero-image { border-radius: 110px 0 110px 0; }
+      .hero-card { left: 22px; }
+      .proof-grid { grid-template-columns: repeat(2, 1fr); }
+      .proof-item:nth-child(2) { border-right: 0; }
+      .proof-item:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+      .intro-grid, .history-grid, .precision-grid, .team-grid, .cta-inner { grid-template-columns: 1fr; }
+      .services-grid, .reviews-grid { grid-template-columns: repeat(2, 1fr); }
+      .method-grid { grid-template-columns: repeat(2, 1fr); }
+      .contact-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 640px) {
+      body { font-size: 16px; }
+      .container { width: min(calc(100% - 28px), var(--max)); }
+      .topbar p { display: none; }
+      .topbar-inner { justify-content: center; }
+      .nav { min-height: 74px; }
+      .nav-links { top: 74px; }
+      .logo { width: 245px; }
+      .hero { background: linear-gradient(180deg, #fff 0 61%, var(--teal-pale) 61% 100%); }
+      .hero-grid { padding-top: 52px; }
+      .hero-visual { min-height: 430px; }
+      .hero-card { left: 14px; bottom: 18px; }
+      .button-row .button { width: 100%; }
+      .proof-grid, .services-grid, .reviews-grid, .method-grid, .contact-grid { grid-template-columns: 1fr; }
+      .proof-item { padding-left: 0; border-right: 0; border-bottom: 1px solid var(--line); }
+      .proof-item:last-child { border-bottom: 0; }
+      .service-card { min-height: 250px; }
+      .review { min-height: auto; }
+      .cta-actions { width: 100%; }
+      .footer-bottom { flex-direction: column; padding-bottom: 90px; }
+      .mobile-whatsapp {
+        position: fixed;
+        right: 14px;
+        bottom: 14px;
+        z-index: 90;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 13px 17px;
+        border-radius: 999px;
+        background: var(--teal-dark);
+        color: #fff;
+        box-shadow: 0 12px 34px rgba(0,0,0,.25);
+        font-weight: 850;
+        text-decoration: none;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: .01ms !important; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Clínica Dental Dr. Ricardo Yagüe Facal",
+    "url": "https://ricardoyaguefacal.com/",
+    "telephone": "+34986008848",
+    "image": "https://ricardoyaguefacal.com/images/imagen-04.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "República Argentina, 25, Bajo",
+      "postalCode": "36201",
+      "addressLocality": "Vigo",
+      "addressRegion": "Pontevedra",
+      "addressCountry": "ES"
+    },
+    "openingHours": "Mo-Fr 08:30-14:00,16:00-19:30"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <p>Clínica dental en el centro de Vigo · Registro sanitario C-36-003478</p>
+      <div class="topbar-links">
+        <a href="tel:+34986008848">986 008 848</a>
+        <a href="https://api.whatsapp.com/send/?phone=34644439910&amp;text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20informaci%C3%B3n" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Navegación principal">
+      <a href="index.html" aria-label="Inicio — Dr. Ricardo Yagüe Facal">
+        <img class="logo" src="images/logos/logotipo-Ricardo-Yague-Facal-horizontal.png" alt="Dr. Ricardo Yagüe Facal">
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#filosofia">Cómo trabajamos</a>
+        <a href="#tratamientos">Tratamientos</a>
+        <a href="#historia">Nuestra historia</a>
+        <a href="#equipo">Equipo</a>
+        <a href="blog.html">Consejos</a>
+        <a class="button button-whatsapp" href="https://api.whatsapp.com/send/?phone=34644439910&amp;text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20una%20cita" target="_blank" rel="noopener">Pedir cita</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Dr. Ricardo Yagüe Facal · Dentista en Vigo</p>
+          <h1>Odontología con <span class="hero-title-em">historia y futuro</span></h1>
+          <p class="lead">Casi un siglo de tradición odontológica familiar y más de 25 años de experiencia personal, unidos a la precisión digital y microscópica para cuidar tu boca con tiempo, criterio y cercanía.</p>
+          <div class="button-row">
+            <a class="button button-whatsapp" href="https://api.whatsapp.com/send/?phone=34644439910&amp;text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20una%20cita" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+            <a class="button button-light" href="tel:+34986008848">Llámanos</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img class="hero-image" src="images/imagen-04.jpg" alt="Dr. Ricardo Yagüe Facal en su clínica de Vigo" width="2520" height="1260">
+          <div class="hero-card">
+            <strong>Tu tratamiento, explicado y planificado contigo</strong>
+            <p>Comprender lo que ocurre es el primer paso para decidir con tranquilidad.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof" aria-label="Razones para confiar">
+      <div class="container proof-grid">
+        <div class="proof-item"><strong>Desde 1925</strong><span>Tradición odontológica familiar</span></div>
+        <div class="proof-item"><strong>25+ años</strong><span>Experiencia clínica de Ricardo</span></div>
+        <div class="proof-item"><strong>Precisión</strong><span>Odontología digital y microscópica</span></div>
+        <div class="proof-item"><strong>Equipo estable</strong><span>Cercanía y continuidad asistencial</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="filosofia">
+      <div class="container intro-grid">
+        <div>
+          <p class="eyebrow">Una forma de entender la odontología</p>
+          <h2>Que tu boca deje de ser una preocupación</h2>
+          <p class="intro-statement">No buscamos tratar dientes aislados. Queremos entender qué necesitas, explicarte las opciones y construir una solución que funcione hoy y se mantenga mañana.</p>
+        </div>
+        <div>
+          <p class="lead">La mejor tecnología solo tiene sentido cuando ayuda a diagnosticar mejor, conservar más y hacerte sentir seguro durante el proceso. Por eso combinamos herramientas avanzadas con algo que nunca debería perderse: escucharte.</p>
+          <div class="principles">
+            <div class="principle"><span>01</span><p><strong>Te escuchamos.</strong> Cada historia clínica y cada expectativa importan.</p></div>
+            <div class="principle"><span>02</span><p><strong>Te lo mostramos.</strong> Imágenes y planificación para que entiendas tu diagnóstico.</p></div>
+            <div class="principle"><span>03</span><p><strong>Decidimos contigo.</strong> Alternativas claras, sin prisas ni tratamientos en serie.</p></div>
+            <div class="principle"><span>04</span><p><strong>Te acompañamos.</strong> Un equipo cercano antes, durante y después.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="tratamientos">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Soluciones pensadas para ti</p>
+          <h2>Cuidar, conservar y recuperar</h2>
+          <p class="lead">Desde una necesidad concreta hasta una rehabilitación completa, estudiamos tu boca en conjunto para elegir el tratamiento adecuado.</p>
+        </div>
+        <div class="services-grid">
+          <a class="service-card" href="estetica-dental.html">
+            <img class="service-icon" src="images/iconos/estetica-dental.png" alt="" aria-hidden="true">
+            <h3>Estética dental</h3>
+            <p>Mejoras naturales que respetan tu expresión, tu función y tu salud.</p>
+            <span class="service-link">Conocer el tratamiento →</span>
+          </a>
+          <a class="service-card" href="implantes.html">
+            <img class="service-icon" src="images/iconos/implante.png" alt="" aria-hidden="true">
+            <h3>Implantes</h3>
+            <p>Planificación digital y cirugía guiada para recuperar seguridad al comer y sonreír.</p>
+            <span class="service-link">Conocer el tratamiento →</span>
+          </a>
+          <a class="service-card" href="endodoncia.html">
+            <img class="service-icon" src="images/iconos/endodoncia.png" alt="" aria-hidden="true">
+            <h3>Endodoncia microscópica</h3>
+            <p>Ver mejor para tratar con precisión y conservar tu diente siempre que sea posible.</p>
+            <span class="service-link">Conocer el tratamiento →</span>
+          </a>
+          <a class="service-card" href="rehabilitacion-oclusal.html">
+            <img class="service-icon" src="images/iconos/rehabilitacion-oclusal.png" alt="" aria-hidden="true">
+            <h3>Rehabilitación oral</h3>
+            <p>Función, comodidad y estética coordinadas en un plan completo y personalizado.</p>
+            <span class="service-link">Conocer el tratamiento →</span>
+          </a>
+          <a class="service-card" href="ferula.html">
+            <img class="service-icon" src="images/iconos/ferula.png" alt="" aria-hidden="true">
+            <h3>Bruxismo y férulas</h3>
+            <p>Diagnóstico y diseño digital a medida para proteger tus dientes y descansar mejor.</p>
+            <span class="service-link">Conocer el tratamiento →</span>
+          </a>
+          <a class="service-card" href="ortodoncia.html">
+            <img class="service-icon" src="images/iconos/ortodoncia.png" alt="" aria-hidden="true">
+            <h3>Ortodoncia</h3>
+            <p>Alineadores transparentes dentro de una planificación estética y funcional.</p>
+            <span class="service-link">Conocer el tratamiento →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section history" id="historia">
+      <div class="container history-grid">
+        <div class="history-copy">
+          <p class="eyebrow">Familias Facal y Yagüe</p>
+          <h2>Una historia que comenzó hace casi un siglo</h2>
+          <p class="lead">En 1925 empezó una vocación familiar que ha atravesado generaciones. Cada una incorporó conocimientos y nuevas técnicas, pero mantuvo la misma responsabilidad: cuidar bien de cada paciente.</p>
+          <p class="history-quote">“La odontología no es solo un oficio. Es un arte que se perfecciona con pasión y dedicación.”</p>
+          <p>Ricardo recibió ese legado y lo lleva al presente con microscopía, planificación digital y una visión integral de cada caso. La tecnología cambia; el compromiso permanece.</p>
+          <a class="button button-whatsapp" href="nosotros.html">Conoce nuestra historia</a>
+        </div>
+        <div class="timeline" aria-label="Línea temporal de la tradición familiar">
+          <div class="timeline-item"><span class="timeline-year">1925</span><div><h3>Comienza el legado Facal</h3><p>Antonio Facal Varela inicia una saga dedicada a la odontología.</p></div></div>
+          <div class="timeline-item"><span class="timeline-year">1950</span><div><h3>La rama Yagüe</h3><p>La profesión crece también dentro de la familia paterna.</p></div></div>
+          <div class="timeline-item"><span class="timeline-year">2001</span><div><h3>Ricardo inicia su práctica</h3><p>Une lo aprendido de ambas familias con una formación multidisciplinar.</p></div></div>
+          <div class="timeline-item"><span class="timeline-year">HOY</span><div><h3>Historia y futuro</h3><p>Precisión digital, microscopía y atención personal en el centro de Vigo.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews" id="opiniones">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Lo que cuentan nuestros pacientes</p>
+          <h2>La confianza se construye paciente a paciente</h2>
+          <p class="lead">La profesionalidad importa. También cómo te reciben, cómo te explican y cómo te sientes al volver.</p>
+        </div>
+        <div class="reviews-grid">
+          <article class="review">
+            <div class="stars" aria-label="5 estrellas">★★★★★</div>
+            <blockquote>“Fantástico trato y profesionalidad. Gran equipo, muy amables.”</blockquote>
+            <footer>Fragmento de reseña pública</footer>
+          </article>
+          <article class="review">
+            <div class="stars" aria-label="5 estrellas">★★★★★</div>
+            <blockquote>“Muy profesionales, puntuales y con una atención excelente.”</blockquote>
+            <footer>Fragmento de reseña pública</footer>
+          </article>
+          <article class="review">
+            <div class="stars" aria-label="5 estrellas">★★★★★</div>
+            <blockquote>“Un trato ejemplar, atención exquisita y mucha profesionalidad.”</blockquote>
+            <footer>Fragmento de reseña pública</footer>
+          </article>
+        </div>
+        <p class="reviews-note">Textos provisionales basados en fragmentos públicos localizados. Se sustituirán por reseñas verificadas y atribuidas cuando se facilite la exportación completa.</p>
+      </div>
+    </section>
+
+    <section class="section" id="precision">
+      <div class="container precision-grid">
+        <div>
+          <img class="precision-image" src="images/imagen-03.jpg" alt="Ricardo Yagüe Facal planificando digitalmente un tratamiento dental" width="1140" height="723" loading="lazy">
+        </div>
+        <div>
+          <p class="eyebrow">Tecnología con propósito</p>
+          <h2>Ver mejor. Planificar mejor. Tratar solo lo necesario.</h2>
+          <p class="lead">La odontología digital y microscópica no es una exhibición de aparatos. Es una forma de controlar cada detalle y ayudarte a tomar decisiones con más información.</p>
+          <div class="precision-list">
+            <div class="precision-item"><b>✓</b><p><strong>Diagnóstico preciso:</strong> imágenes ampliadas y visión tridimensional cuando el caso lo requiere.</p></div>
+            <div class="precision-item"><b>✓</b><p><strong>Planificación personal:</strong> Ricardo participa directamente en el diseño digital de tus tratamientos.</p></div>
+            <div class="precision-item"><b>✓</b><p><strong>Resultados predecibles:</strong> podemos anticipar, probar y ajustar antes de la solución definitiva.</p></div>
+            <div class="precision-item"><b>✓</b><p><strong>Transparencia:</strong> ves lo que vemos y entiendes por qué recomendamos cada paso.</p></div>
+          </div>
+          <a class="button button-light" href="blog/la-odontologia-digital-mas-alla-del-escaner.html">Descubre cómo trabajamos</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section method" id="metodo">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Tu primera visita</p>
+          <h2>Un proceso claro desde el principio</h2>
+        </div>
+        <div class="method-grid">
+          <article class="method-step"><h3>Escuchar</h3><p>Qué te preocupa, qué esperas y qué experiencias has tenido.</p></article>
+          <article class="method-step"><h3>Diagnosticar</h3><p>Exploración y pruebas necesarias, sin hacer por hacer.</p></article>
+          <article class="method-step"><h3>Explicar</h3><p>Te mostramos lo que vemos con palabras comprensibles.</p></article>
+          <article class="method-step"><h3>Planificar</h3><p>Alternativas, prioridades y una secuencia adaptada a ti.</p></article>
+          <article class="method-step"><h3>Acompañar</h3><p>Seguimiento cercano para cuidar el resultado a largo plazo.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="equipo">
+      <div class="container team-grid">
+        <div class="team-copy">
+          <p class="eyebrow">Personas que cuidan de personas</p>
+          <h2>Un equipo pequeño, estable y muy implicado</h2>
+          <p class="lead">Cuando vuelves, encuentras caras conocidas. Esa continuidad nos permite conocerte, anticiparnos y hacer que cada visita sea más sencilla.</p>
+          <ul>
+            <li><strong>Dr. Ricardo Yagüe Facal</strong><span>Odontólogo · planificación y coordinación clínica</span></li>
+            <li><strong>María Sanromán</strong><span>Auxiliar de gabinete · 25 años junto a Ricardo</span></li>
+            <li><strong>María M. Sanromán</strong><span>Recepción y atención al paciente</span></li>
+          </ul>
+          <a class="button button-light" href="nosotros.html">Conoce al equipo</a>
+        </div>
+        <div>
+          <img class="team-image" src="images/imagen-02.jpg" alt="Equipo de la clínica dental Dr. Ricardo Yagüe Facal" width="1320" height="880" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner">
+        <div>
+          <p class="eyebrow">Hablemos de tu caso</p>
+          <h2>Tu salud bucal empieza con una conversación</h2>
+          <p>Cuéntanos qué te preocupa. Te orientaremos con cercanía y te ayudaremos a encontrar el momento adecuado para venir.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="button" href="https://api.whatsapp.com/send/?phone=34644439910&amp;text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20una%20cita" target="_blank" rel="noopener">WhatsApp · 644 439 910</a>
+          <a class="button button-light" href="tel:+34986008848">Llamar · 986 008 848</a>
+          <a class="button button-light" href="contacto.html">Formulario de contacto</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="contact">
+    <div class="container section contact-grid">
+      <div>
+        <img class="contact-logo" src="images/logos/logotipo-Ricardo-Yague-Facal-horizontal.png" alt="Dr. Ricardo Yagüe Facal">
+        <p>Odontología con historia, precisión y trato personal en el centro de Vigo.</p>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <p><a href="tel:+34986008848">986 008 848</a><br><a href="https://api.whatsapp.com/send/?phone=34644439910" target="_blank" rel="noopener">644 439 910</a></p>
+      </div>
+      <div>
+        <h3>Clínica</h3>
+        <address>República Argentina, 25, Bajo<br>36201 Vigo, Pontevedra</address>
+      </div>
+      <div>
+        <h3>Horario</h3>
+        <p>Lunes a viernes<br>8:30–14:00<br>16:00–19:30</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Dr. Ricardo Yagüe Facal · Registro sanitario C-36-003478 · Propuesta home v1.0</span>
+      <div class="footer-links">
+        <a href="privacidad.html">Privacidad</a>
+        <a href="cookies.html">Cookies</a>
+        <a href="nota-legal.html">Aviso legal</a>
+        <a href="accesibilidad.html">Accesibilidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="mobile-whatsapp" href="https://api.whatsapp.com/send/?phone=34644439910&amp;text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20una%20cita" target="_blank" rel="noopener" aria-label="Pedir cita por WhatsApp">WhatsApp</a>
+
+  <script>
+    const menuButton = document.querySelector('.menu-button');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuButton.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('open');
+      menuButton.setAttribute('aria-expanded', String(open));
+      menuButton.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+      menuButton.textContent = open ? '×' : '☰';
+    });
+
+    navLinks.addEventListener('click', event => {
+      if (event.target.closest('a')) {
+        navLinks.classList.remove('open');
+        menuButton.setAttribute('aria-expanded', 'false');
+        menuButton.setAttribute('aria-label', 'Abrir menú');
+        menuButton.textContent = '☰';
+      }
+    });
+  </script>
+</body>
+</html>

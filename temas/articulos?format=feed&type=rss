@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Etiquetas | Dr. Ricardo Yagüe Facal</title>
+		<description><![CDATA[]]></description>
+		<link>https://ricardoyaguefacal.com/temas/articulos</link>
+		<lastBuildDate>Sat, 29 Aug 2026 21:10:42 +0200</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="https://ricardoyaguefacal.com/temas/articulos?format=feed&amp;type=rss"/>
+		<language>es-es</language>
+		<item>
+			<title>Diseño CAD dental: aplicaciones de Blender</title>
+			<link>https://ricardoyaguefacal.com/blog/diseno-cad-dental-aplicaciones-de-blender</link>
+			<guid isPermaLink="true">https://ricardoyaguefacal.com/blog/diseno-cad-dental-aplicaciones-de-blender</guid>
+			<description><![CDATA[<p>Estos son unos ejemplos de aplicación del diseño CAD dental en la clínica para llegar al mejor resultado posible en el tratamiento protésico rehabilitador.</p>
+]]></description>
+			<category>Blog</category>
+			<pubDate>Wed, 24 Sep 2025 07:39:28 +0200</pubDate>
+		</item>
+		<item>
+			<title>La odontología digital más allá del escáner</title>
+			<link>https://ricardoyaguefacal.com/blog/la-odontologia-digital-mas-alla-del-escaner</link>
+			<guid isPermaLink="true">https://ricardoyaguefacal.com/blog/la-odontologia-digital-mas-alla-del-escaner</guid>
+			<description><![CDATA[<p>Gracias al Colegio de Odontólogos de Pontevedra y Ourense, tuve la oportunidad de compartir mis conocimientos en Odontología Digital. Durante el curso, mostré que sustituir la silicona por un escáner intraoral es solo el primer paso hacia la digitalización de la clínica y la mejora de la experiencia del paciente.</p>
+]]></description>
+			<category>Blog</category>
+			<pubDate>Wed, 17 Sep 2025 16:11:27 +0200</pubDate>
+		</item>
+		<item>
+			<title>La Odontología Digital: innovación para mejores resultados</title>
+			<link>https://ricardoyaguefacal.com/blog/la-odontologia-digital-innovacion-para-mejores-resultados</link>
+			<guid isPermaLink="true">https://ricardoyaguefacal.com/blog/la-odontologia-digital-innovacion-para-mejores-resultados</guid>
+			<description><![CDATA[<p>La odontología ha dejado atrás las impresiones manuales y los moldes de yeso para dar paso a la <strong>odontología digital</strong>. La incorporación del <strong>escáner intraoral y los softwares de escaneado y diseño CAD</strong> ha revolucionado la forma en que diagnosticamos y planificamos tratamientos, optimizando la precisión y mejorando la experiencia del paciente.</p>
+]]></description>
+			<category>Blog</category>
+			<pubDate>Wed, 24 Sep 2025 07:56:40 +0200</pubDate>
+		</item>
+		<item>
+			<title>La Revolución del Diseño CAD Dental: Blender For Dental</title>
+			<link>https://ricardoyaguefacal.com/blog/la-revolucion-del-diseno-cad-dental-blender-for-dental</link>
+			<guid isPermaLink="true">https://ricardoyaguefacal.com/blog/la-revolucion-del-diseno-cad-dental-blender-for-dental</guid>
+			<description><![CDATA[<p>La odontología digital ha evolucionado notablemente con la integración del <strong>diseño asistido por ordenador (CAD)</strong>, permitiendo una planificación más precisa y eficiente de tratamientos dentales. Entre los diversos software disponibles, destaca <strong>Blender For Dental</strong>, una adaptación del reconocido programa <strong>Blender</strong>, optimizado para el sector dental.</p>
+]]></description>
+			<category>Blog</category>
+			<pubDate>Wed, 24 Sep 2025 08:03:04 +0200</pubDate>
+		</item>
+	</channel>
+</rss>

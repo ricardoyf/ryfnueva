@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-es">
+	<title type="text">Etiquetas | Dr. Ricardo Yagüe Facal</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://ricardoyaguefacal.com"/>
+	<id>https://ricardoyaguefacal.com/temas/videos</id>
+	<updated>2026-08-29T21:10:44+02:00</updated>
+	<author>
+		<name>Dr. Ricardo Yagüe Facal</name>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="https://ricardoyaguefacal.com/temas/videos?format=feed&amp;type=atom"/>
+	<entry>
+		<title>¿Sabes qué hay debajo de una corona?</title>
+		<link rel="alternate" type="text/html" href="https://ricardoyaguefacal.com/blog/sabes-que-hay-debajo-de-una-corona"/>
+		<published>2025-09-23T14:59:26+02:00</published>
+		<updated>2025-09-23T14:59:26+02:00</updated>
+		<id>https://ricardoyaguefacal.com/blog/sabes-que-hay-debajo-de-una-corona</id>
+		<author>
+			<name>Pilar Dávila</name>
+		</author>
+		<summary type="html">&lt;p&gt;En este vídeo te enseño lo que hay bajo una corona diseñada digitalmente.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;En este vídeo te enseño lo que hay bajo una corona diseñada digitalmente.&lt;/p&gt;
+</content>
+		<category term="Blog" />
+	</entry>
+	<entry>
+		<title>Articulador virtual</title>
+		<link rel="alternate" type="text/html" href="https://ricardoyaguefacal.com/blog/articulador-virtual"/>
+		<published>2025-09-23T14:59:26+02:00</published>
+		<updated>2025-09-23T14:59:26+02:00</updated>
+		<id>https://ricardoyaguefacal.com/blog/articulador-virtual</id>
+		<author>
+			<name>Pablo</name>
+		</author>
+		<summary type="html">&lt;p&gt;En este vídeo te muestro un ajuste oclusal en articulador virtual.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;En este vídeo te muestro un ajuste oclusal en articulador virtual.&lt;/p&gt;
+</content>
+		<category term="Blog" />
+	</entry>
+	<entry>
+		<title>Circonio + PPR en Peek</title>
+		<link rel="alternate" type="text/html" href="https://ricardoyaguefacal.com/blog/circonio-ppr-en-peek"/>
+		<published>2025-09-23T14:59:26+02:00</published>
+		<updated>2025-09-23T14:59:26+02:00</updated>
+		<id>https://ricardoyaguefacal.com/blog/circonio-ppr-en-peek</id>
+		<author>
+			<name>Pablo</name>
+		</author>
+		<summary type="html">&lt;p&gt;Ataches extracoronarios en circonio y hembras en PPR en PEEK&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;Ataches extracoronarios en circonio y hembras en PPR en PEEK&lt;/p&gt;
+</content>
+		<category term="Blog" />
+	</entry>
+	<entry>
+		<title>Crown BOPT</title>
+		<link rel="alternate" type="text/html" href="https://ricardoyaguefacal.com/blog/crown-bopt"/>
+		<published>2025-09-23T14:59:26+02:00</published>
+		<updated>2025-09-23T14:59:26+02:00</updated>
+		<id>https://ricardoyaguefacal.com/blog/crown-bopt</id>
+		<author>
+			<name>Pilar Dávila</name>
+		</author>
+		<summary type="html">&lt;p&gt;En este vídeo te enseño qué hay más alla de sustituir la silicona.&lt;/p&gt;
+</summary>
+		<content type="html">&lt;p&gt;En este vídeo te enseño qué hay más alla de sustituir la silicona.&lt;/p&gt;
+</content>
+		<category term="Blog" />
+	</entry>
+</feed>

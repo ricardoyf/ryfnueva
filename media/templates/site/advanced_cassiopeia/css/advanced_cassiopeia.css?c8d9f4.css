@@ -1,0 +1,122 @@
+/* General */
+html {
+    scroll-behavior: smooth;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    margin-bottom: .5em;
+}
+
+blockquote {
+    border-left: 4px solid var(--primary-color);
+    padding: 1rem 1.5rem .5rem;
+    position: relative;
+}
+
+/* Content component */
+.readmore .btn {
+    text-align: left;
+}
+
+/* Back to top */
+.back-to-top-link {
+    position: fixed;
+}
+
+/* Footer */
+.footer {
+    font-size: 0.9rem;
+}
+
+.footer .grid-child {
+    gap: 0 2em;
+}
+
+.mod-footer {
+    line-height: 2.5;
+    text-align: center;
+}
+
+/* Footer menu */
+.footer .mod-menu {
+    flex-direction: row;
+    gap: .5em 1em;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+/* Offline */
+.offline-card {
+    margin: auto;
+    max-width: 400px;
+}
+
+.offline-card .header {
+    text-align: center;
+}
+
+/* Responsive fixes */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Fix margin between items in Default menu layout (not Collapsible Dropdown) */
+    .container-header .mod-menu > li + li:not(.metismenu-item) {
+        margin-left: 1.55em;
+    }
+
+    /* Fix active decoration */
+    .container-header .metismenu > li > a::after,
+    .container-header .metismenu > li > button::before {
+        background: hsl(0, 0%, 100%);
+        bottom: 0;
+        content: "";
+        display: inline-block;
+        height: 2px;
+        opacity: .2;
+        position: absolute;
+    }
+
+    .metismenu.mod-menu .metismenu-item.active > a,
+    .metismenu.mod-menu .metismenu-item.active > button,
+    .metismenu.mod-menu .metismenu-item > a:hover,
+    .metismenu.mod-menu .metismenu-item > button:hover {
+        text-decoration: none;
+    }
+
+}
+
+@media (max-width: 767px) {
+    
+    /* Show menu-right burger button under logo in small screens */
+    header .grid-child {
+        flex-direction: column;
+    }
+    
+    /* Show menu and other modules in a row in small screens */
+    header .grid-child.container-nav {
+        flex-direction: row;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .align-image-right {
+        float: right;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        max-width: 50%;
+    }
+
+    .align-image-left {
+        float: left;
+        margin-bottom: 1em;
+        margin-right: 1em;
+        max-width: 50%;
+    }
+
+}
