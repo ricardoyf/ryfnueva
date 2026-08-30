@@ -301,7 +301,7 @@
     .reviews-note { margin: 24px 0 0; color: var(--ink-soft); font-size: .82rem; }
 
     .precision-grid, .team-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(44px, 8vw, 104px); align-items: center; }
-    .precision-image, .team-image {
+    .precision-image {
       width: 100%;
       aspect-ratio: 3 / 2;
       object-fit: cover;
@@ -309,7 +309,13 @@
       box-shadow: var(--shadow);
     }
     .precision-image { object-position: center; }
-    .team-image { object-position: center 38%; }
+    .team-image {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
     .precision-list { display: grid; gap: 18px; margin: 32px 0; }
     .precision-item { display: grid; grid-template-columns: 28px 1fr; gap: 12px; }
     .precision-item b { color: var(--teal-dark); }
@@ -322,7 +328,9 @@
     .method-step p { margin-bottom: 0; color: var(--ink-soft); font-size: .92rem; }
 
     .team-copy ul { padding: 0; list-style: none; }
-    .team-copy li { padding: 14px 0; border-bottom: 1px solid var(--line); }
+    .team-copy .lead { margin-bottom: 18px; }
+    .team-copy ul { margin: 0 0 22px; }
+    .team-copy li { padding: 9px 0; border-bottom: 1px solid var(--line); }
     .team-copy li strong { display: block; }
     .team-copy li span { color: var(--ink-soft); }
 
@@ -663,8 +671,8 @@
       <div class="container team-grid">
         <div class="team-copy">
           <p class="eyebrow">Personas que cuidan de personas</p>
-          <h2>Un equipo pequeño, estable y muy implicado</h2>
-          <p class="lead">Cuando vuelves, encuentras caras conocidas. Esa continuidad nos permite conocerte, anticiparnos y hacer que cada visita sea más sencilla.</p>
+          <h2>Un equipo estable y muy implicado</h2>
+          <p class="lead">Cuando vuelves, encuentras caras conocidas que hacen cada visita más sencilla.</p>
           <ul>
             <li><strong>Dr. Ricardo Yagüe Facal</strong><span>Odontólogo · planificación y coordinación clínica</span></li>
             <li><strong>María Sanromán</strong><span>Auxiliar de gabinete · 25 años junto a Ricardo</span></li>
@@ -714,7 +722,7 @@
       </div>
     </div>
     <div class="container footer-bottom">
-      <span>© 2026 Dr. Ricardo Yagüe Facal · Registro sanitario C-36-003478 · Propuesta home v1.2</span>
+      <span>© 2026 Dr. Ricardo Yagüe Facal · Registro sanitario C-36-003478 · Propuesta home v1.3</span>
       <div class="footer-links">
         <a href="privacidad.html">Privacidad</a>
         <a href="cookies.html">Cookies</a>
