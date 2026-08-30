@@ -345,11 +345,9 @@
     .contact { position: relative; overflow: hidden; background: #1b1d1d; color: #fff; }
     .contact::before { content: ""; position: absolute; inset: 0 0 auto; height: 4px; background: linear-gradient(90deg, var(--teal), #bde9e2 48%, transparent 88%); }
     .contact h2, .contact h3 { color: #fff; }
-    .contact-grid { display: grid; grid-template-columns: 1.45fr repeat(3, .75fr); gap: 0; padding-top: clamp(58px, 8vw, 88px); padding-bottom: clamp(48px, 7vw, 76px); }
-    .contact-brand { padding-right: clamp(38px, 6vw, 76px); }
-    .contact-logo { width: min(350px, 100%); height: auto; margin-bottom: 26px; }
-    .contact-brand p { max-width: 410px; margin: 0; font-size: 1.02rem; line-height: 1.75; }
-    .contact-block { padding: 6px 26px 0; border-left: 1px solid rgba(255,255,255,.12); }
+    .contact-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; padding-top: clamp(58px, 8vw, 82px); padding-bottom: clamp(48px, 7vw, 70px); }
+    .contact-block { padding: 6px clamp(26px, 5vw, 64px) 0; border-left: 1px solid rgba(255,255,255,.12); }
+    .contact-block:first-child { padding-left: 0; border-left: 0; }
     .contact-block h3 { margin-bottom: 20px; color: var(--teal); font-size: .76rem; letter-spacing: .14em; text-transform: uppercase; }
     .contact-block p, .contact-block address { margin: 0; line-height: 1.85; }
     .contact p, .contact address { color: #bec2c1; font-style: normal; }
@@ -392,9 +390,7 @@
       .intro-grid, .history-grid, .precision-grid, .team-grid, .cta-inner, .sedation-panel { grid-template-columns: 1fr; }
       .services-grid, .reviews-grid { grid-template-columns: repeat(2, 1fr); }
       .method-grid { grid-template-columns: repeat(2, 1fr); }
-      .contact-grid { grid-template-columns: 1fr 1fr 1fr; row-gap: 42px; }
-      .contact-brand { grid-column: 1 / -1; padding-right: 0; }
-      .contact-brand p { max-width: 620px; }
+      .contact-grid { grid-template-columns: 1fr 1fr 1fr; }
     }
 
     @media (max-width: 640px) {
@@ -416,9 +412,8 @@
       .review { min-height: auto; }
       .cta-actions { width: 100%; }
       .contact-grid { gap: 0; padding-top: 54px; padding-bottom: 38px; }
-      .contact-brand { margin-bottom: 34px; }
-      .contact-logo { width: min(310px, 100%); margin-bottom: 20px; }
       .contact-block { padding: 22px 0; border-left: 0; border-top: 1px solid rgba(255,255,255,.12); }
+      .contact-block:first-child { border-top: 0; }
       .contact-block h3 { margin-bottom: 10px; }
       .contact-block p, .contact-block address { line-height: 1.7; }
       .footer-bottom { grid-template-columns: 1fr; gap: 18px; padding-bottom: 92px; }
@@ -723,10 +718,6 @@
 
   <footer class="contact">
     <div class="container section contact-grid">
-      <div class="contact-brand">
-        <img class="contact-logo" src="images/logos/logotipo-Ricardo-Yague-Facal-horizontal.png" alt="Dr. Ricardo Yagüe Facal">
-        <p>Odontología con historia, precisión y trato personal en el centro de Vigo.</p>
-      </div>
       <div class="contact-block">
         <h3>Contacto</h3>
         <p><a href="tel:+34986008848">986 008 848</a><br><a href="https://api.whatsapp.com/send/?phone=34644439910" target="_blank" rel="noopener">644 439 910</a></p>
@@ -744,7 +735,7 @@
       <div class="footer-meta">
         <span>© 2026 Dr. Ricardo Yagüe Facal</span>
         <span>Registro sanitario C-36-003478</span>
-        <span class="footer-version">Propuesta home v1.4</span>
+        <span class="footer-version">Propuesta home v1.5</span>
       </div>
       <div class="footer-links">
         <a href="privacidad.html">Privacidad</a>
