@@ -74,12 +74,6 @@
     .lead { max-width: 690px; color: var(--ink-soft); font-size: clamp(1.08rem, 2vw, 1.3rem); }
     .section { padding: clamp(76px, 10vw, 132px) 0; }
 
-    .topbar { background: var(--ink); color: #fff; font-size: .88rem; }
-    .topbar-inner { display: flex; justify-content: space-between; gap: 24px; padding: 9px 0; }
-    .topbar p { margin: 0; }
-    .topbar a { color: #fff; font-weight: 750; text-decoration: none; }
-    .topbar-links { display: flex; gap: 20px; }
-
     .site-header {
       position: sticky;
       top: 0;
@@ -307,7 +301,15 @@
     .reviews-note { margin: 24px 0 0; color: var(--ink-soft); font-size: .82rem; }
 
     .precision-grid, .team-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(44px, 8vw, 104px); align-items: center; }
-    .precision-image, .team-image { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow); }
+    .precision-image, .team-image {
+      width: 100%;
+      aspect-ratio: 3 / 2;
+      object-fit: cover;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .precision-image { object-position: center; }
+    .team-image { object-position: center 38%; }
     .precision-list { display: grid; gap: 18px; margin: 32px 0; }
     .precision-item { display: grid; grid-template-columns: 28px 1fr; gap: 12px; }
     .precision-item b { color: var(--teal-dark); }
@@ -335,7 +337,7 @@
     .contact { background: var(--ink); color: #fff; }
     .contact h2, .contact h3 { color: #fff; }
     .contact-grid { display: grid; grid-template-columns: 1.2fr repeat(3, .6fr); gap: 38px; }
-    .contact-logo { max-width: 330px; padding: 14px; border-radius: 12px; background: #fff; }
+    .contact-logo { width: min(330px, 100%); height: auto; }
     .contact p, .contact address { color: #bec2c1; font-style: normal; }
     .contact a { color: #fff; text-decoration-color: var(--teal); text-underline-offset: 4px; }
     .footer-bottom { display: flex; justify-content: space-between; gap: 30px; padding: 26px 0; border-top: 1px solid rgba(255,255,255,.14); color: #9fa4a3; font-size: .82rem; }
@@ -378,8 +380,6 @@
     @media (max-width: 640px) {
       body { font-size: 16px; }
       .container { width: min(calc(100% - 28px), var(--max)); }
-      .topbar p { display: none; }
-      .topbar-inner { justify-content: center; }
       .nav { min-height: 74px; }
       .nav-links { top: 74px; }
       .logo { width: 245px; }
@@ -441,16 +441,6 @@
 </head>
 <body>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
-
-  <div class="topbar">
-    <div class="container topbar-inner">
-      <p>Clínica dental en el centro de Vigo · Registro sanitario C-36-003478</p>
-      <div class="topbar-links">
-        <a href="tel:+34986008848">986 008 848</a>
-        <a href="https://api.whatsapp.com/send/?phone=34644439910&amp;text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20informaci%C3%B3n" target="_blank" rel="noopener">WhatsApp</a>
-      </div>
-    </div>
-  </div>
 
   <header class="site-header">
     <nav class="container nav" aria-label="Navegación principal">
@@ -724,7 +714,7 @@
       </div>
     </div>
     <div class="container footer-bottom">
-      <span>© 2026 Dr. Ricardo Yagüe Facal · Registro sanitario C-36-003478 · Propuesta home v1.1</span>
+      <span>© 2026 Dr. Ricardo Yagüe Facal · Registro sanitario C-36-003478 · Propuesta home v1.2</span>
       <div class="footer-links">
         <a href="privacidad.html">Privacidad</a>
         <a href="cookies.html">Cookies</a>
