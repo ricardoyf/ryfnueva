@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="../../">
   <title>Dentista en Vigo | Dr. Ricardo Yagüe Facal</title>
   <meta name="description" content="Odontología con historia y futuro en Vigo. Atención personal, más de 25 años de experiencia y precisión digital y microscópica con el Dr. Ricardo Yagüe Facal.">
   <meta name="theme-color" content="#222222">
@@ -72,7 +73,7 @@
     h3 { margin-bottom: 10px; font-size: 1.25rem; }
     p { margin-top: 0; }
     .lead { max-width: 690px; color: var(--ink-soft); font-size: clamp(1.08rem, 2vw, 1.3rem); }
-    .section { padding: clamp(46px, 5.5vw, 76px) 0; }
+    .section { padding: clamp(48px, 6vw, 82px) 0; }
 
     .site-header {
       position: sticky;
@@ -190,13 +191,12 @@
     .principle { display: grid; grid-template-columns: 42px 1fr; gap: 16px; padding-top: 16px; border-top: 1px solid var(--line); }
     .principle span { color: var(--teal-dark); font-weight: 900; }
     .principle p { margin: 0; color: var(--ink-soft); }
-    .philosophy-action { margin-top: 26px; }
 
     .services { background: var(--warm); }
-    .section-head { max-width: 780px; margin-bottom: 36px; }
+    .section-head { max-width: 780px; margin-bottom: 44px; }
     .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
     .service-card {
-      min-height: 254px;
+      min-height: 290px;
       display: flex;
       flex-direction: column;
       padding: 28px;
@@ -207,7 +207,7 @@
       transition: transform .22s ease, box-shadow .22s ease;
     }
     .service-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
-    .service-icon { width: 54px; height: 54px; margin-bottom: 22px; object-fit: contain; }
+    .service-icon { width: 58px; height: 58px; margin-bottom: 28px; object-fit: contain; }
     .service-card p { color: var(--ink-soft); }
     .service-link { margin-top: auto; color: var(--teal-dark); font-weight: 850; }
 
@@ -252,6 +252,14 @@
     .history .eyebrow { color: var(--teal); }
     .history-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(50px, 9vw, 118px); align-items: center; }
     .history-copy .lead { color: #c9cccb; }
+    .history-quote {
+      margin: 34px 0;
+      padding: 24px 0 24px 25px;
+      border-left: 3px solid var(--teal);
+      color: #fff;
+      font-size: 1.28rem;
+      font-weight: 680;
+    }
     .timeline {
       position: relative;
       display: grid;
@@ -391,9 +399,9 @@
       .nav-links { top: 74px; }
       .logo { width: 245px; }
       .hero { background: linear-gradient(180deg, #fff 0 61%, var(--teal-pale) 61% 100%); }
-      .hero-grid { gap: 34px; padding-top: 46px; padding-bottom: 54px; }
+      .hero-grid { padding-top: 52px; }
       .hero-visual { min-height: 430px; }
-      .hero-card { left: 14px; bottom: 18px; padding: 18px; }
+      .hero-card { left: 14px; bottom: 18px; }
       .button-row .button { width: 100%; }
       .services-grid, .reviews-grid, .method-grid { grid-template-columns: 1fr; }
       .proof-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -403,16 +411,7 @@
       .proof-item:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
       .proof-item strong { margin-bottom: 2px; font-size: 1.08rem; }
       .proof-item span { font-size: .78rem; line-height: 1.3; }
-      .service-card { min-height: 0; padding: 22px; }
-      .service-icon { width: 46px; height: 46px; margin-bottom: 16px; }
-      .service-card p { margin-bottom: 14px; }
-      .service-link { margin-top: 2px; }
-      .timeline { gap: 12px; padding: 8px 0; }
-      .timeline::before { left: 25px; }
-      .timeline-item { grid-template-columns: 52px 1fr; gap: 14px; align-items: start; }
-      .timeline-year { width: 52px; height: 52px; font-size: .7rem; }
-      .timeline-item h3 { margin-bottom: 3px; font-size: 1.08rem; }
-      .timeline-item p { line-height: 1.45; }
+      .service-card { min-height: 250px; }
       .sedation-panel { padding: 30px 24px; border-radius: 24px; }
       .review { min-height: auto; }
       .closing-card { padding: 30px 24px; border-radius: 24px; }
@@ -490,7 +489,7 @@
         <div class="hero-copy">
           <p class="eyebrow">Dr. Ricardo Yagüe Facal · Dentista en Vigo</p>
           <h1>Odontología con <span class="hero-title-em">historia y futuro</span></h1>
-          <p class="lead">Ricardo estudia cada caso con tiempo, te explica las alternativas y mantiene contigo una atención directa y continuada, con más de 25 años de experiencia.</p>
+          <p class="lead">Casi un siglo de tradición odontológica familiar y más de 25 años de experiencia personal, unidos a la precisión digital y microscópica para cuidar tu boca con tiempo, criterio y cercanía.</p>
           <div class="button-row">
             <a class="button button-whatsapp" href="https://api.whatsapp.com/send/?phone=34644439910&amp;text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20una%20cita" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
             <a class="button button-light" href="tel:+34986008848">Llámanos</a>
@@ -499,8 +498,8 @@
         <div class="hero-visual">
           <img class="hero-image" src="images/imagen-04.jpg" alt="Dr. Ricardo Yagüe Facal en su clínica de Vigo" width="2520" height="1260">
           <div class="hero-card">
-            <strong>Ricardo estudia tu caso y te explica las alternativas</strong>
-            <p>Comprender lo que ocurre permite decidir juntos y con tranquilidad.</p>
+            <strong>Tu tratamiento, explicado y planificado contigo</strong>
+            <p>Comprender lo que ocurre es el primer paso para decidir con tranquilidad.</p>
           </div>
         </div>
       </div>
@@ -515,50 +514,13 @@
       </div>
     </section>
 
-    <section class="section" id="filosofia">
-      <div class="container intro-grid">
-        <div>
-          <p class="eyebrow">Una forma de entender la odontología</p>
-          <h2>Que tu boca deje de ser una preocupación</h2>
-        </div>
-        <div>
-          <p class="lead">Estudiamos tu boca en conjunto, te explicamos las opciones y avanzamos sin prisas. Ricardo dirige el proceso y el mismo equipo te acompaña para que sepas siempre quién te atiende y por qué.</p>
-          <div class="principles">
-            <div class="principle"><span>01</span><p><strong>Te escuchamos.</strong> Cada historia clínica y cada expectativa importan.</p></div>
-            <div class="principle"><span>02</span><p><strong>Te lo mostramos.</strong> Imágenes y planificación para que entiendas tu diagnóstico.</p></div>
-            <div class="principle"><span>03</span><p><strong>Decidimos contigo.</strong> Alternativas claras, sin prisas ni tratamientos en serie.</p></div>
-            <div class="principle"><span>04</span><p><strong>Te acompañamos.</strong> Un equipo cercano antes, durante y después.</p></div>
-          </div>
-          <a class="button button-light philosophy-action" href="como-trabajamos.html">Así trabajamos</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="equipo">
-      <div class="container team-grid">
-        <div class="team-copy">
-          <p class="eyebrow">El mismo equipo, antes, durante y después</p>
-          <h2>Caras conocidas en cada visita</h2>
-          <p class="lead">Ricardo coordina personalmente el diagnóstico y el plan de tratamiento. Cuando vuelves, encuentras un equipo estable que conoce tu caso y hace cada visita más sencilla.</p>
-          <ul>
-            <li><strong>Dr. Ricardo Yagüe Facal</strong><span>Odontólogo · diagnóstico, planificación y coordinación clínica</span></li>
-            <li><strong>María Sanromán</strong><span>Auxiliar de gabinete · 25 años junto a Ricardo</span></li>
-            <li><strong>María M. Sanromán</strong><span>Recepción y atención al paciente</span></li>
-          </ul>
-          <a class="button button-light" href="nosotros.html">Conoce al equipo</a>
-        </div>
-        <div>
-          <img class="team-image" src="images/imagen-02.jpg" alt="Equipo de la clínica dental Dr. Ricardo Yagüe Facal" width="1320" height="880" loading="lazy">
-        </div>
-      </div>
-    </section>
-
     <section class="section history" id="historia">
       <div class="container history-grid">
         <div class="history-copy">
           <p class="eyebrow">Familias Facal y Yagüe</p>
           <h2>Una historia que comenzó hace casi un siglo</h2>
           <p class="lead">En 1925 empezó una vocación familiar que ha atravesado generaciones. Cada una incorporó conocimientos y nuevas técnicas, pero mantuvo la misma responsabilidad: cuidar bien de cada paciente.</p>
+          <p class="history-quote">“La odontología no es solo un oficio. Es un arte que se perfecciona con pasión y dedicación.”</p>
           <p>Ricardo recibió ese legado y lo lleva al presente con microscopía, planificación digital y una visión integral de cada caso. La tecnología cambia; el compromiso permanece.</p>
           <a class="button button-whatsapp" href="nosotros.html">Conoce nuestra historia</a>
         </div>
@@ -571,48 +533,66 @@
       </div>
     </section>
 
+    <section class="section" id="filosofia">
+      <div class="container intro-grid">
+        <div>
+          <p class="eyebrow">Una forma de entender la odontología</p>
+          <h2>Que tu boca deje de ser una preocupación</h2>
+        </div>
+        <div>
+          <p class="lead">La mejor tecnología solo tiene sentido cuando ayuda a diagnosticar mejor, conservar más y hacerte sentir seguro durante el proceso. Por eso combinamos herramientas avanzadas con algo que nunca debería perderse: escucharte.</p>
+          <div class="principles">
+            <div class="principle"><span>01</span><p><strong>Te escuchamos.</strong> Cada historia clínica y cada expectativa importan.</p></div>
+            <div class="principle"><span>02</span><p><strong>Te lo mostramos.</strong> Imágenes y planificación para que entiendas tu diagnóstico.</p></div>
+            <div class="principle"><span>03</span><p><strong>Decidimos contigo.</strong> Alternativas claras, sin prisas ni tratamientos en serie.</p></div>
+            <div class="principle"><span>04</span><p><strong>Te acompañamos.</strong> Un equipo cercano antes, durante y después.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="section services" id="tratamientos">
       <div class="container">
         <div class="section-head">
-          <p class="eyebrow">Un criterio clínico para cada caso</p>
-          <h2>Conservar siempre que sea posible</h2>
-          <p class="lead">Partimos de un diagnóstico completo para cuidar, conservar y, cuando sea necesario, recuperar función, comodidad y estética.</p>
+          <p class="eyebrow">Soluciones pensadas para ti</p>
+          <h2>Cuidar, conservar y recuperar</h2>
+          <p class="lead">Desde una necesidad concreta hasta una rehabilitación completa, estudiamos tu boca en conjunto para elegir el tratamiento adecuado.</p>
         </div>
         <div class="services-grid">
           <a class="service-card" href="estetica-dental.html">
             <img class="service-icon" src="images/iconos/estetica-dental.png" alt="" aria-hidden="true">
             <h3>Estética dental</h3>
-            <p>Mejoras naturales que respetan tu expresión, función y salud.</p>
+            <p>Mejoras naturales que respetan tu expresión, tu función y tu salud.</p>
             <span class="service-link">Conocer el tratamiento →</span>
           </a>
           <a class="service-card" href="implantes.html">
             <img class="service-icon" src="images/iconos/implante.png" alt="" aria-hidden="true">
             <h3>Implantes</h3>
-            <p>Planificación precisa para recuperar seguridad al comer y sonreír.</p>
+            <p>Planificación digital y cirugía guiada para recuperar seguridad al comer y sonreír.</p>
             <span class="service-link">Conocer el tratamiento →</span>
           </a>
           <a class="service-card" href="endodoncia.html">
             <img class="service-icon" src="images/iconos/endodoncia.png" alt="" aria-hidden="true">
             <h3>Endodoncia microscópica</h3>
-            <p>Precisión microscópica para conservar tu diente siempre que sea posible.</p>
+            <p>Ver mejor para tratar con precisión y conservar tu diente siempre que sea posible.</p>
             <span class="service-link">Conocer el tratamiento →</span>
           </a>
           <a class="service-card" href="rehabilitacion-oclusal.html">
             <img class="service-icon" src="images/iconos/rehabilitacion-oclusal.png" alt="" aria-hidden="true">
             <h3>Rehabilitación oral</h3>
-            <p>Función, comodidad y estética coordinadas en un plan completo.</p>
+            <p>Función, comodidad y estética coordinadas en un plan completo y personalizado.</p>
             <span class="service-link">Conocer el tratamiento →</span>
           </a>
           <a class="service-card" href="ferula.html">
             <img class="service-icon" src="images/iconos/ferula.png" alt="" aria-hidden="true">
             <h3>Bruxismo y férula</h3>
-            <p>Una solución a medida para proteger tus dientes y descansar mejor.</p>
+            <p>Diagnóstico y diseño digital a medida para proteger tus dientes y descansar mejor.</p>
             <span class="service-link">Conocer el tratamiento →</span>
           </a>
           <a class="service-card" href="ortodoncia.html">
             <img class="service-icon" src="images/iconos/ortodoncia.png" alt="" aria-hidden="true">
             <h3>Ortodoncia</h3>
-            <p>Alineadores transparentes con una visión estética y funcional.</p>
+            <p>Alineadores transparentes dentro de una planificación estética y funcional.</p>
             <span class="service-link">Conocer el tratamiento →</span>
           </a>
         </div>
@@ -660,6 +640,25 @@
       </div>
     </section>
 
+    <section class="section" id="equipo">
+      <div class="container team-grid">
+        <div class="team-copy">
+          <p class="eyebrow">Personas que cuidan de personas</p>
+          <h2>Un equipo estable y muy implicado</h2>
+          <p class="lead">Cuando vuelves, encuentras caras conocidas que hacen cada visita más sencilla.</p>
+          <ul>
+            <li><strong>Dr. Ricardo Yagüe Facal</strong><span>Odontólogo · planificación y coordinación clínica</span></li>
+            <li><strong>María Sanromán</strong><span>Auxiliar de gabinete · 25 años junto a Ricardo</span></li>
+            <li><strong>María M. Sanromán</strong><span>Recepción y atención al paciente</span></li>
+          </ul>
+          <a class="button button-light" href="nosotros.html">Conoce al equipo</a>
+        </div>
+        <div>
+          <img class="team-image" src="images/imagen-02.jpg" alt="Equipo de la clínica dental Dr. Ricardo Yagüe Facal" width="1320" height="880" loading="lazy">
+        </div>
+      </div>
+    </section>
+
     <section class="closing" aria-labelledby="cierre-titulo">
       <div class="container">
         <div class="closing-card">
@@ -696,7 +695,7 @@
     </div>
     <div class="container footer-bottom">
       <span>© 2026 Dr. Ricardo Yagüe Facal. Todos los derechos reservados.</span>
-      <span>Registro sanitario C-36-003478 · <span class="footer-version">Propuesta home v2.0</span></span>
+      <span>Registro sanitario C-36-003478 · <span class="footer-version">Propuesta home v1.9</span></span>
     </div>
   </footer>
 
