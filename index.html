@@ -154,21 +154,6 @@
       border-radius: 170px 0 170px 0;
       box-shadow: var(--shadow);
     }
-    .hero-card {
-      position: absolute;
-      left: -52px;
-      bottom: 38px;
-      width: min(330px, 82%);
-      padding: 22px;
-      border: 1px solid rgba(255, 255, 255, .8);
-      border-radius: 18px;
-      background: rgba(255, 255, 255, .93);
-      box-shadow: var(--shadow);
-      backdrop-filter: blur(12px);
-    }
-    .hero-card strong { display: block; margin-bottom: 5px; font-size: 1.06rem; }
-    .hero-card p { margin: 0; color: var(--ink-soft); font-size: .93rem; }
-
     .proof { border-block: 1px solid var(--line); background: #fff; }
     .proof-grid { display: grid; grid-template-columns: repeat(4, 1fr); }
     .proof-item { padding: 30px clamp(18px, 3vw, 40px); border-right: 1px solid var(--line); }
@@ -374,7 +359,6 @@
       .hero-grid { min-height: auto; grid-template-columns: 1fr; }
       .hero-visual { min-height: 560px; }
       .hero-image { border-radius: 110px 0 110px 0; }
-      .hero-card { left: 22px; }
       .proof-grid { grid-template-columns: repeat(2, 1fr); }
       .proof-item:nth-child(2) { border-right: 0; }
       .proof-item:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
@@ -393,7 +377,6 @@
       .hero { background: linear-gradient(180deg, #fff 0 61%, var(--teal-pale) 61% 100%); }
       .hero-grid { gap: 34px; padding-top: 46px; padding-bottom: 54px; }
       .hero-visual { min-height: 430px; }
-      .hero-card { left: 14px; bottom: 18px; padding: 18px; }
       .button-row .button { width: 100%; }
       .services-grid, .reviews-grid, .method-grid { grid-template-columns: 1fr; }
       .proof-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -498,10 +481,6 @@
         </div>
         <div class="hero-visual">
           <img class="hero-image" src="images/imagen-04.jpg" alt="Dr. Ricardo Yagüe Facal en su clínica de Vigo" width="2520" height="1260">
-          <div class="hero-card">
-            <strong>Ricardo estudia tu caso y te explica las alternativas</strong>
-            <p>Comprender lo que ocurre permite decidir juntos y con tranquilidad.</p>
-          </div>
         </div>
       </div>
     </section>
