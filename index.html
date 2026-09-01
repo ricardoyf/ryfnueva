@@ -402,9 +402,14 @@
       .hero-visual { min-height: 430px; }
       .hero-card { left: 14px; bottom: 18px; }
       .button-row .button { width: 100%; }
-      .proof-grid, .services-grid, .reviews-grid, .method-grid { grid-template-columns: 1fr; }
-      .proof-item { padding-left: 0; border-right: 0; border-bottom: 1px solid var(--line); }
-      .proof-item:last-child { border-bottom: 0; }
+      .services-grid, .reviews-grid, .method-grid { grid-template-columns: 1fr; }
+      .proof-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .proof-item { padding: 16px 10px; }
+      .proof-item:nth-child(odd) { padding-left: 0; border-right: 1px solid var(--line); }
+      .proof-item:nth-child(even) { padding-right: 0; border-right: 0; }
+      .proof-item:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+      .proof-item strong { margin-bottom: 2px; font-size: 1.08rem; }
+      .proof-item span { font-size: .78rem; line-height: 1.3; }
       .service-card { min-height: 250px; }
       .sedation-panel { padding: 30px 24px; border-radius: 24px; }
       .review { min-height: auto; }
@@ -508,12 +513,30 @@
       </div>
     </section>
 
+    <section class="section history" id="historia">
+      <div class="container history-grid">
+        <div class="history-copy">
+          <p class="eyebrow">Familias Facal y Yagüe</p>
+          <h2>Una historia que comenzó hace casi un siglo</h2>
+          <p class="lead">En 1925 empezó una vocación familiar que ha atravesado generaciones. Cada una incorporó conocimientos y nuevas técnicas, pero mantuvo la misma responsabilidad: cuidar bien de cada paciente.</p>
+          <p class="history-quote">“La odontología no es solo un oficio. Es un arte que se perfecciona con pasión y dedicación.”</p>
+          <p>Ricardo recibió ese legado y lo lleva al presente con microscopía, planificación digital y una visión integral de cada caso. La tecnología cambia; el compromiso permanece.</p>
+          <a class="button button-whatsapp" href="nosotros.html">Conoce nuestra historia</a>
+        </div>
+        <div class="timeline" aria-label="Línea temporal de la tradición familiar">
+          <div class="timeline-item"><span class="timeline-year">1925</span><div><h3>Comienza el legado Facal</h3><p>Antonio Facal Varela inicia una saga dedicada a la odontología.</p></div></div>
+          <div class="timeline-item"><span class="timeline-year">1950</span><div><h3>La rama Yagüe</h3><p>La profesión crece también dentro de la familia paterna.</p></div></div>
+          <div class="timeline-item"><span class="timeline-year">2001</span><div><h3>Ricardo inicia su práctica</h3><p>Une lo aprendido de ambas familias con una formación multidisciplinar.</p></div></div>
+          <div class="timeline-item"><span class="timeline-year">HOY</span><div><h3>Historia y futuro</h3><p>Precisión digital, microscopía y atención personal en el centro de Vigo.</p></div></div>
+        </div>
+      </div>
+    </section>
+
     <section class="section" id="filosofia">
       <div class="container intro-grid">
         <div>
           <p class="eyebrow">Una forma de entender la odontología</p>
           <h2>Que tu boca deje de ser una preocupación</h2>
-          <p class="intro-statement">No buscamos tratar dientes aislados. Queremos entender qué necesitas, explicarte las opciones y construir una solución que funcione hoy y se mantenga mañana.</p>
         </div>
         <div>
           <p class="lead">La mejor tecnología solo tiene sentido cuando ayuda a diagnosticar mejor, conservar más y hacerte sentir seguro durante el proceso. Por eso combinamos herramientas avanzadas con algo que nunca debería perderse: escucharte.</p>
@@ -584,25 +607,6 @@
             <p class="lead">Realizamos tratamientos con sedación para ayudar a afrontar el cuidado dental con mayor tranquilidad cuando el caso lo requiere.</p>
             <a class="button button-whatsapp" href="tratamientos.html#sedacion">Conocer la sedación</a>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section history" id="historia">
-      <div class="container history-grid">
-        <div class="history-copy">
-          <p class="eyebrow">Familias Facal y Yagüe</p>
-          <h2>Una historia que comenzó hace casi un siglo</h2>
-          <p class="lead">En 1925 empezó una vocación familiar que ha atravesado generaciones. Cada una incorporó conocimientos y nuevas técnicas, pero mantuvo la misma responsabilidad: cuidar bien de cada paciente.</p>
-          <p class="history-quote">“La odontología no es solo un oficio. Es un arte que se perfecciona con pasión y dedicación.”</p>
-          <p>Ricardo recibió ese legado y lo lleva al presente con microscopía, planificación digital y una visión integral de cada caso. La tecnología cambia; el compromiso permanece.</p>
-          <a class="button button-whatsapp" href="nosotros.html">Conoce nuestra historia</a>
-        </div>
-        <div class="timeline" aria-label="Línea temporal de la tradición familiar">
-          <div class="timeline-item"><span class="timeline-year">1925</span><div><h3>Comienza el legado Facal</h3><p>Antonio Facal Varela inicia una saga dedicada a la odontología.</p></div></div>
-          <div class="timeline-item"><span class="timeline-year">1950</span><div><h3>La rama Yagüe</h3><p>La profesión crece también dentro de la familia paterna.</p></div></div>
-          <div class="timeline-item"><span class="timeline-year">2001</span><div><h3>Ricardo inicia su práctica</h3><p>Une lo aprendido de ambas familias con una formación multidisciplinar.</p></div></div>
-          <div class="timeline-item"><span class="timeline-year">HOY</span><div><h3>Historia y futuro</h3><p>Precisión digital, microscopía y atención personal en el centro de Vigo.</p></div></div>
         </div>
       </div>
     </section>
@@ -690,7 +694,7 @@
     </div>
     <div class="container footer-bottom">
       <span>© 2026 Dr. Ricardo Yagüe Facal. Todos los derechos reservados.</span>
-      <span>Registro sanitario C-36-003478 · <span class="footer-version">Propuesta home v1.8</span></span>
+      <span>Registro sanitario C-36-003478 · <span class="footer-version">Propuesta home v1.9</span></span>
     </div>
   </footer>
 
